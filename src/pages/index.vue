@@ -4,7 +4,7 @@
  * @Author: EVE
  * @Date: 2022-05-24 16:49:48
  * @LastEditors: EVE
- * @LastEditTime: 2022-05-24 16:57:25
+ * @LastEditTime: 2022-05-25 10:53:15
 -->
 <template>
     <img alt="Vue logo" src="./../assets/logo.png" />
@@ -14,7 +14,7 @@
     <br /><br />
     <router-link to="/vueUse">点击跳转至vueUse页面</router-link>
     <br /><br />
-    <router-link to="/request">点击跳转至request请求页面</router-link>
+    <router-link to="/vueRequest">点击跳转至request请求页面</router-link>
 </template>
 
 <script lang="ts">

@@ -4,7 +4,7 @@
  * @Author: EVE
  * @Date: 2022-05-24 16:26:10
  * @LastEditors: EVE
- * @LastEditTime: 2022-05-24 17:22:27
+ * @LastEditTime: 2022-05-25 10:53:01
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 const routes: Array<RouteRecordRaw> = [
@@ -37,6 +37,16 @@ const routes: Array<RouteRecordRaw> = [
             requireAuth: true,
         },
         component: () => import('@/pages/vueUse.vue'),
+    },
+    {
+        path: '/vueRequest',
+        name: 'VueRequest',
+        meta: {
+            title: '请求页',
+            keepAlive: true,
+            requireAuth: true,
+        },
+        component: () => import('@/pages/vueRequest.vue'),
     },
 ];
 const router = createRouter({

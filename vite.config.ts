@@ -4,11 +4,15 @@
  * @Author: EVE
  * @Date: 2022-05-24 14:43:28
  * @LastEditors: EVE
- * @LastEditTime: 2022-05-24 15:30:57
+ * @LastEditTime: 2022-05-25 11:03:47
  */
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import path from 'path';
+import {
+    createStyleImportPlugin,
+    ElementPlusResolve,
+} from 'vite-plugin-style-import';
 
 // https://vitejs.dev/config/
 export default defineConfig({
